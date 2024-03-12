@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Payroll Management</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Payroll Management System</h1>
+        <form id="employeeForm">
+            <input type="text" id="name" placeholder="Employee Name" required>
+            <input type="text" id="designation" placeholder="Designation" required>
+            <input type="number" id="salary" placeholder="Salary" required>
+            <button type="submit">Add Employee</button>
+        </form>
+        <div id="employeeList" class="employee-list"></div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
